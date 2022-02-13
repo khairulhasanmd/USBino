@@ -46,7 +46,7 @@
           },
           "url": "https://github.com/khairulhasanmd/USBino/releases/download/1.0.0/USBino.zip",
           "archiveFileName": "USBino.zip",
-          "checksum": "SHA-256:d43229c7e9de600e9151f9cf0cf24e30d883b7680dd91a492883b2279c036345",
+          "checksum": "SHA-256:9cf32def413f8096bc8170593b662680105413dab0bcf85c2f1bf268174edd6e",
           "size": "8309",
           "boards": [
             {"name": "USBino"}
