@@ -20,7 +20,7 @@ Advanced users can install the hardware add-on manually by creating a folder nam
 			* README.md
 			* boards.txt
 
-## PlatformIO
+## PlatformIO Not Tested
 
 It is also possible to use this add-on with [PlatformIO](https://platformio.org/). For instace you can use the USBino ATmega32 or ATmega32A running at 16 MHz by creating the following entry in your platformio.ini file:
 
@@ -30,7 +30,6 @@ platform = atmelavr
 framework = arduino
 board = usbino
 ```
-This is needed if you have not burned the Optiboot bootloader.
 
 The list of boards can be found here: <http://docs.platformio.org/en/latest/platforms/atmelavr.html#sanguino>.
 

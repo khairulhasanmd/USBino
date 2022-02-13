@@ -1,4 +1,4 @@
-#### Developed by Kristian Sloth Lauszus, 2012
+#### Developed by Md. Khairul Hasan, 2012
 
 The code is released under the GNU General Public License.
 _________
