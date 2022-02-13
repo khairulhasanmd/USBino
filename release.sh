@@ -3,7 +3,7 @@
 # It then zips the hardware add-on and calculate the SHA-256 and file size
 # This is used with the Arduino Boards Manager
 
-url=https://github.com/Lauszus/Sanguino.git
+url=https://github.com/khairulhasanmd/USBino.git
 hardware_add_on_path=avr
 
 dir="$(cd "$(dirname "$0")" && pwd)"

@@ -17,10 +17,10 @@
           "help": {
             "online": "https://khairulhasan.com/USBino/help/"
           },
-          "url": "https://github.com/khairulhasanmd/USBino/releases/download/1.0.0/USBino-1.0.0.zip",
-          "archiveFileName": "USBino-1.0.0.zip",
-          "checksum": "SHA-256:1bfe7707894907a2792884fc726e1fe9251842fac75eaf5ef451bba0c18cbb4e",
-          "size": "92824",
+          "url": "https://github.com/khairulhasanmd/USBino/releases/download/1.0.0/USBino.zip",
+          "archiveFileName": "USBino.zip",
+          "checksum": "SHA-256:fd1a6d684a542b7601a2184ad16e602196a0afe4045c59046f0cfa5a1305ff64",
+          "size": "5006",
           "boards": [
             {"name": "USBino"}
           ],
