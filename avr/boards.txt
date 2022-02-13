@@ -2,7 +2,7 @@ menu.cpu=Processor
 
 ##############################################################
 
-usbino.name=USBuino
+usbino.name=USBino
 
 usbino.upload.tool=arduino:avrdude
 usbino.upload.protocol=usbasp
@@ -20,7 +20,7 @@ usbino.build.variant=usbino
 
 ###### ATmega32x
 
-## USBuino W/ ATmega32 or ATmega32A (16MHz)
+## USBino W/ ATmega32 or ATmega32A (16MHz)
 usbino.menu.cpu.atmega32=ATmega32 or ATmega32A (16 MHz)
 
 usbino.menu.cpu.atmega32.upload.maximum_size=28672
