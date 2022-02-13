@@ -1,0 +1,35 @@
+menu.cpu=Processor
+
+##############################################################
+
+usbino.name=USBuino
+
+usbino.upload.tool=arduino:avrdude
+usbino.upload.protocol=usbasp
+
+usbino.bootloader.tool=arduino:avrdude
+usbino.bootloader.low_fuses=0xFF
+usbino.bootloader.high_fuses=0xDE
+usbino.bootloader.extended_fuses=0xFD
+usbino.bootloader.unlock_bits=0x3F
+usbino.bootloader.lock_bits=0x0F
+
+usbino.build.board=AVR_USBINO
+usbino.build.core=arduino:arduino
+usbino.build.variant=usbino
+
+###### ATmega32x
+
+## USBuino W/ ATmega32 or ATmega32A (16MHz)
+usbino.menu.cpu.atmega32=ATmega32 or ATmega32A (16 MHz)
+
+usbino.menu.cpu.atmega32.upload.maximum_size=28672
+usbino.menu.cpu.atmega32.upload.maximum_data_size=2048
+usbino.menu.cpu.atmega32.upload.speed=115200
+
+usbino.menu.cpu.atmega32.bootloader.file=optiboot/optiboot_atmega32.hex
+
+usbino.menu.cpu.atmega32.build.mcu=atmega32
+usbino.menu.cpu.atmega32.build.f_cpu=16000000L
+
+############################################################

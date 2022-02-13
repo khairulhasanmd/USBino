@@ -1,0 +1,44 @@
+{
+  "packages": [
+    {
+      "name": "USBino",
+      "maintainer": "Md. Khairul Hasan",
+      "websiteURL": "https://khairulhasan.com/USBino/",
+      "email": "khairulhasanmd@gmail.com",
+      "help": {
+        "online": "https://khairulhasan.com/USBino/help/"
+      },
+      "platforms": [
+        {
+          "name": "USBino",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "USBino",
+          "help": {
+            "online": "https://khairulhasan.com/USBino/help/"
+          },
+          "url": "https://github.com/khairulhasanmd/USBino/releases/download/1.0.0/USBino-1.0.0.zip",
+          "archiveFileName": "USBino-1.0.0.zip",
+          "checksum": "SHA-256:1bfe7707894907a2792884fc726e1fe9251842fac75eaf5ef451bba0c18cbb4e",
+          "size": "92824",
+          "boards": [
+            {"name": "USBino"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
