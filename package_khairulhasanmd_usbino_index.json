@@ -63,6 +63,33 @@
               "version": "6.0.1-arduino5"
             }
           ]
+        },{
+          "name": "USBino",
+          "architecture": "avr",
+          "version": "1.1.0",
+          "category": "USBino",
+          "help": {
+            "online": "https://khairulhasan.com/USBino/help/"
+          },
+          "url": "https://github.com/khairulhasanmd/USBino/releases/download/1.1.0/USBino.zip",
+          "archiveFileName": "USBino.zip",
+          "checksum": "SHA-256:dee42fe7bf640413cab5dbc34f0eed710d295848dd81c41bc9985cd5966e7ffc",
+          "size": "8309",
+          "boards": [
+            {"name": "USBino"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
       ],
       "tools": []

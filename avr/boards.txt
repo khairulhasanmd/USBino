@@ -20,16 +20,30 @@ usbino.build.variant=usbino
 
 ###### ATmega32x
 
-## USBino W/ ATmega32 or ATmega32A (16MHz)
-usbino.menu.cpu.atmega32=ATmega32 or ATmega32A (16 MHz)
+## USBino W/ ATmega32 (16MHz)
+usbino.menu.cpu.atmega32=ATmega32 (16 MHz)
 
 usbino.menu.cpu.atmega32.upload.maximum_size=28672
 usbino.menu.cpu.atmega32.upload.maximum_data_size=2048
 usbino.menu.cpu.atmega32.upload.speed=115200
 
-usbino.menu.cpu.atmega32.bootloader.file=optiboot/optiboot_atmega32.hex
+usbino.menu.cpu.atmega32.bootloader.file=usbasploader/usbasploader_atmega32.hex
 
 usbino.menu.cpu.atmega32.build.mcu=atmega32
 usbino.menu.cpu.atmega32.build.f_cpu=16000000L
+
+###### ATmega16x
+
+## USBino W/ ATmega16 (16MHz)
+usbino.menu.cpu.atmega16=ATmega16 (16 MHz)
+
+usbino.menu.cpu.atmega16.upload.maximum_size=28672
+usbino.menu.cpu.atmega16.upload.maximum_data_size=2048
+usbino.menu.cpu.atmega16.upload.speed=115200
+
+usbino.menu.cpu.atmega16.bootloader.file=usbasploader/usbasploader_atmega16.hex
+
+usbino.menu.cpu.atmega16.build.mcu=atmega16
+usbino.menu.cpu.atmega16.build.f_cpu=16000000L
 
 ############################################################
