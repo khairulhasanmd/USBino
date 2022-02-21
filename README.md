@@ -20,18 +20,9 @@ Advanced users can install the hardware add-on manually by creating a folder nam
 			* README.md
 			* boards.txt
 
-## PlatformIO Not Tested
+## Board and firmware
 
-It is also possible to use this add-on with [PlatformIO](https://platformio.org/). For instace you can use the USBino ATmega32 or ATmega32A running at 16 MHz by creating the following entry in your platformio.ini file:
-
-```ini
-[env:usbino]
-platform = atmelavr
-framework = arduino
-board = usbino
-```
-
-The list of boards can be found here: <http://docs.platformio.org/en/latest/platforms/atmelavr.html#sanguino>.
+The board uses USBaspLoader firmware to upload code to the chip. The source code can be found [here](https://github.com/khairulhasanmd/USBaspLoader-Atmega32) for now. Only supports the following two chips: Atmega32 and Atmega16.
 
 For more information see the following site: [http://www.arduino.cc/en/Guide/Environment#thirdpartyhardware](http://www.arduino.cc/en/Guide/Environment#thirdpartyhardware)
 or send me an email at <a href="mailto:khairulhasanmd@gmail.com?Subject=USBino">khairulhasanmd@gmail.com</a>.
