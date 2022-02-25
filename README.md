@@ -1,6 +1,6 @@
 # USBino
 #### Developed by Md. Khairul Hasan, 2012
-
+This is a renamed project/rework to support the board from arduino board manager. Instead hacking/changing its library files(which is dangerous of course). This project is a merge between [Sanguino](https://github.com/Lauszus/sanguino) and a [project](https://github.com/khairulhasanmd/Arduino-Atmega32-USBasploader) that i have done in the past.
 The code is released under the GNU General Public License.
 _________
 [![Build Status](https://travis-ci.org/Lauszus/USBino.svg?branch=master)](https://travis-ci.org/Lauszus/USBino)
